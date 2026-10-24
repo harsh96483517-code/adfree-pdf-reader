@@ -1,0 +1,8 @@
+<resources>
+    <color name="brand">#D32F2F</color>
+    <color name="brand_dark">#9A0007</color>
+    <color name="brand_container">#FFDAD6</color>
+    <color name="on_brand">#FFFFFF</color>
+    <color name="scrim">#66000000</color>
+    <color name="highlight_yellow">#80FFEB3B</color>
+</resources>
