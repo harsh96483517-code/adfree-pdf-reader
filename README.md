@@ -9,6 +9,20 @@ No banners, no popups, no trackers, no "premium" paywall. Everything runs
 
 ---
 
+## ⬇️ Download the APK
+
+**[Download the latest APK](https://github.com/harsh96483517-code/adfree-pdf-reader/releases/latest)**
+
+1. Download `app-debug.apk` and transfer it to your phone.
+2. Allow **Install unknown apps** for your browser / file manager.
+3. Open the APK and install.
+
+> Debug build (signed with the Android debug key), so it is not on the Play Store.
+> Google Play Protect may warn about an unknown developer — that is expected for
+> a sideloaded APK.
+
+---
+
 ## Features
 
 **Read**
