@@ -140,7 +140,7 @@ object PdfTools {
      * Flattens [annos] onto a copy of [src]. [renderScale] is the pixels-per-point
      * the page was displayed at, used to convert screen coordinates back to PDF points.
      */
-    fun annotate(src: File, out: File, annos: List<Anno>, renderScale: Float) {
+    fun annotate(src: File, out: java.io.OutputStream, annos: List<Anno>, renderScale: Float) {
         PDDocument.load(src).use { doc ->
             val scale = if (renderScale <= 0f) 1f else renderScale
             annos.groupBy { it.page }.forEach { (pageIdx, list) ->

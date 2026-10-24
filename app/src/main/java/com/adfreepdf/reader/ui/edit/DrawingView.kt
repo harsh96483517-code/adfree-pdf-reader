@@ -75,7 +75,10 @@ class DrawingView @JvmOverloads constructor(
                     if (mode == Mode.HIGHLIGHT) dp(22f) else dp(3f), mode == Mode.HIGHLIGHT)
                 current = s; items.add(s); invalidate()
             }
-            MotionEvent.ACTION_MOVE -> current?.pts?.add(PointF(event.x, event.y)); invalidate()
+            MotionEvent.ACTION_MOVE -> {
+                current?.pts?.add(PointF(event.x, event.y))
+                invalidate()
+            }
             MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> current = null
         }
         return true

@@ -251,7 +251,7 @@ class EditActivity : AppCompatActivity() {
                                                 (br.x - tl.x).coerceAtLeast(1f),
                                                 (br.y - tl.y).coerceAtLeast(1f)
                                             ),
-                                            image = bos.toByteArray(), color = item.color
+                                            image = bos.toByteArray(), color = Color.BLACK
                                         )
                                     )
                                 }
